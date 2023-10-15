@@ -49,7 +49,7 @@ const AccAndCartLinks = (): JSX.Element => {
 					}}
 					initial='hidden'
 					whileHover='visible'
-					className='relative py-4 px-4'
+					className='relative py-4 px-2 lg:px-4'
 					key={link.name}>
 					<Link href='/account' className='hover:text-hover transition-colors'>
 						<FontAwesomeIcon icon={link.icon} />

@@ -16,7 +16,7 @@ const HeroGraphic = (): JSX.Element => {
 			</h1>
 			<Button
 				href='/store'
-				customClasses='absolute bottom-16 left-1/2 -translate-x-1/2'>
+				customClasses='absolute bottom-16 left-1/2 -translate-x-1/2 lg:px-12 lg:py-3'>
 				Store
 			</Button>
 		</section>
